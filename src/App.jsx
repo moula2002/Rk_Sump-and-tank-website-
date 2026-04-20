@@ -12,6 +12,7 @@ import TermsOfService from './pages/TermsOfService';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import WhatsappFloatingIcon from './components/WhatsappFloatingIcon';
+import CallFloatingButton from './components/CallFloatingButton';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
 
 
         <Footer />
+        <CallFloatingButton />
         <WhatsappFloatingIcon />
       </div>
     </Router>

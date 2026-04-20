@@ -22,7 +22,7 @@ const AboutPage = () => {
           </p>
           <div className="pt-4">
             <a
-              href="tel:+919741617916"
+              href="tel:+918123432009"
               className="bg-white text-blue-600 px-10 py-4 rounded shadow-xl font-bold hover:bg-slate-50 transition-all inline-flex items-center gap-2"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

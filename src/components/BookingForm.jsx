@@ -18,7 +18,7 @@ const BookingForm = () => {
           <input
             type="tel"
             className="w-full bg-slate-100/50 border border-slate-200 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
-            placeholder="+91 00000 00000"
+            placeholder="+91 8123432009"
           />
         </div>
         <div>

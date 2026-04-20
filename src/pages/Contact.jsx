@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-slate-900">Call Us</h4>
-                <p className="text-slate-500 text-sm font-semibold">+91 97416 17916</p>
+                <a href="tel:+918123432009" className="text-slate-500 text-sm font-semibold hover:text-blue-600 transition-colors">+91 81234 32009</a>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="font-bold text-slate-900">Email Us</h4>
-                <p className="text-slate-500 text-sm font-semibold">info@rksumpcleaning.com</p>
+                <a href="mailto:servicerkcleaning@gmail.com" className="text-slate-500 text-sm font-semibold hover:text-blue-600 transition-colors">servicerkcleaning@gmail.com</a>
               </div>
             </div>
 

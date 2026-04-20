@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsappFloatingIcon = () => {
-  const whatsappNumber = "+919741617916";
+  const whatsappNumber = "+918123432009";
   const message = "Hi RK Sump & Tank Cleaning, I'm interested in your services. Please share more details.";
   const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
 
