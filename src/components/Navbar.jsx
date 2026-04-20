@@ -35,9 +35,8 @@ const Navbar = () => {
   const showBackground = isScrolled || !isHome;
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      showBackground ? 'bg-white/95 backdrop-blur-md shadow-lg py-4' : 'bg-transparent py-6'
-    }`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${showBackground ? 'bg-white/95 backdrop-blur-md shadow-lg py-4' : 'bg-transparent py-6'
+      }`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-4 group">
           <img
@@ -74,7 +73,7 @@ const Navbar = () => {
             </button>
 
             {showDropdown && (
-              <div 
+              <div
                 className="absolute top-full left-0 w-64 bg-white shadow-2xl rounded-2xl p-4 mt-2 border border-slate-100 animate-in fade-in slide-in-from-top-2 duration-200"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -137,7 +136,7 @@ const Navbar = () => {
 
 
         {/* Mobile menu toggle */}
-        <button 
+        <button
           className="md:hidden p-2 text-slate-900 focus:outline-none"
           onClick={toggleMenu}
         >
@@ -154,13 +153,12 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`md:hidden absolute top-full left-0 right-0 bg-white border-b border-slate-200 transition-all duration-300 overflow-hidden ${
-        isMenuOpen ? 'max-h-[90vh] opacity-100 visible shadow-2xl' : 'max-h-0 opacity-0 invisible'
-      }`}>
+      <div className={`md:hidden absolute top-full left-0 right-0 bg-white border-b border-slate-200 transition-all duration-300 overflow-hidden ${isMenuOpen ? 'max-h-[90vh] opacity-100 visible shadow-2xl' : 'max-h-0 opacity-0 invisible'
+        }`}>
         <div className="p-8 space-y-8">
           <nav className="flex flex-col gap-6">
             <Link to="/" className="text-lg font-bold text-slate-900 hover:text-blue-600 transition-colors" onClick={toggleMenu}>Home</Link>
-            
+
             <div className="space-y-4">
               <p className="text-[11px] font-black uppercase tracking-widest text-slate-400">Our Services</p>
               <div className="flex flex-col gap-4 pl-1">
